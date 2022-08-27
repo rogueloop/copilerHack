@@ -99,9 +99,10 @@
 }
 
 .service-box{
-    padding: o 35px;
+    padding: o 35px; 
     cursor: pointer;
     margin-bottom: 10px;
+    padding-right:20px !important;
 
 }
 
@@ -117,5 +118,48 @@
     color: #fff;
     box-shadow: o 15px 15px 2px rbg(213,213,213,0.5);
     transition: 0.4s;
+    padding-right: 30px;
+    
 }
 
+/* -----------feature------------- */
+
+.feature{
+    margin: 200px 0;
+
+}
+
+.feature img{
+    max-width: 77%;
+    cursor: pointer;
+
+}
+
+.feature h2{
+    margin-top: 100px;
+    font-weight: bold;
+    line-height: 50px;
+}
+
+.feature p{
+    margin-top: 25px;
+    margin-bottom: 50px;
+    color: #80808080;
+    font-size: 14px;
+    line-height: 18px;
+
+}
+
+.feature a{
+    width: 170px;
+    padding:  15px 10px;
+    display: block;
+    background: #6900d1;
+    text-decoration: none!important;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204,204,204,0.5);
+}
