@@ -4,6 +4,7 @@
 }
 .header{
     background: #6900d1;
+    
 }
 
 .navbar{
@@ -86,6 +87,8 @@
 
 .service{
     margin: 75px 0;
+    
+
 }
 .title{
     text-align: center;
@@ -103,13 +106,30 @@
     cursor: pointer;
     margin-bottom: 10px;
     padding-right:20px !important;
-
+    
 }
 
 .service-box img{
-    width :300px;
+    width :200px;
     margin-top: 65px;
     margin-bottom:  45px; 
+    
+}
+.service-box h6{
+    margin-bottom:  45px; 
+    font-weight: bold;
+}
+
+.service-box p{ 
+    font-size: 14px;
+    color:#808080;
+}
+
+.fa-arrow-right{
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 35px;
+    cursor: pointer;
 }
 
 .service-box:hover{
@@ -119,6 +139,7 @@
     box-shadow: o 15px 15px 2px rbg(213,213,213,0.5);
     transition: 0.4s;
     padding-right: 30px;
+    
     
 }
 
@@ -180,6 +201,7 @@
 .footer{
     background: #6900d1;
     padding-top: 5px;
+    
 }
 
 .footer h2{
