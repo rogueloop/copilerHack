@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
 *{
+    box-sizing: border-box;
     margin: 0;
     padding:0;
 }
+
+:root{
+    /* --text-color: #00aa00; */
+    --text-color:rgb(148, 146, 146) ;
+}
+
 .header{
     background: #6900d1;
     
@@ -143,6 +152,12 @@
     
 }
 
+articleImage{
+    width: 200px ;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
 /* -----------feature------------- */
 
 .feature,.explore{
@@ -236,4 +251,54 @@
     border: 1px solid #fff;
     font-size: 20px;
     background: transparent;
+}
+
+
+/* ------------------------------------- topics ----------------------------*/
+
+.topics{
+    font-family:'Roboto Mono',sans-serif;
+    background-color: #fff;
+    color:#ccc;
+    font-size: 18px;
+    line-height: 1.6;
+}
+.topics h2{
+    color: var(--text-color);
+}
+.hidden{
+    display: none;
+}
+
+.topics li{
+    width: 170px;
+    padding:  15px 10px;
+    display: block;
+    background: #6900d1;
+    text-decoration: none!important;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    box-shadow: 0 9px 9px 1px rgba(204,204,204,0.5);
+}
+
+.topics ul{
+    list-style-type: none;
+}
+
+.topics nav{
+    width: 30px;
+
+}
+.topics nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.topics nav ul li{
+    cursor: pointer;
 }
