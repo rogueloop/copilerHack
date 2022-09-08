@@ -164,10 +164,14 @@ articleImage{
     margin: 200px 0;
 
 }
+/* .feature .row{
+    
+} */
 
 .feature img{
     max-width: 77%;
     cursor: pointer;
+    
 
 }
 
@@ -210,7 +214,12 @@ articleImage{
 .explore  a{
     margin-bottom: 50px;
 }
-
+#youtube{
+    background-image:url(images/atre.png)
+}
+#discord{
+    background-image: url(images/discord.jpg);
+}
 
 /*--------------------footer------------  */
 .footer{
